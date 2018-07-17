@@ -6,8 +6,8 @@ class App < Sinatra::Base
     "Welcome to your app!!!! I am trying to make a change. This is where shotgun comes in handy"
   end
   
-  get '/name' do
-    "My name is Nick"
+  get '/name/last_name' do
+    "My name is Sarah Zakon"
   end
 
 get '/boy_time' do 
