@@ -10,4 +10,8 @@ class App < Sinatra::Base
     "My name is Nick"
   end
 
+get '/boy_time' do 
+  'It is now boy time'
+end
+
 end
